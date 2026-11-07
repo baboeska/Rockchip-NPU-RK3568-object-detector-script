@@ -11,8 +11,8 @@ from rknnlite.api import RKNNLite
 # Defaults (you can override these using command-line flags)
 MODEL_PATH = "yolo11s.rknn"
 
-DEFAULT_SOURCE = "/home/mingus/Pictures/"
-DEFAULT_OUTPUT = "/home/mingus/Camera1_Sorted"
+DEFAULT_SOURCE = "/home/$USER/Pictures/"
+DEFAULT_OUTPUT = "/home/$USER/Camera1_Sorted"
 DEFAULT_CONF   = 0.40
 
 PRIORITY = ["person", "car", "bus", "truck", "motorcycle", "bicycle", "train", "boat"]
