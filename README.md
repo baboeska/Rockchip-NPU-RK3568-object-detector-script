@@ -12,6 +12,10 @@ Usage:
 Build a python 3.12 virtual environment. Install rockchip toolkit 2.5.0 and Ultralytics.
 Then run via "python processor.py -i="input directory" -o="output directory"
 
+Approximately 6.5fps with Yolov11s on RK3568B NPU, though, due to kernel compatibility issues with gpu drivers, etc, best as a project than a daily driver, but, was a fun niche to explore.
+
+If you own a RK3568 you are probably better off to have Armbian and open kernel, in terms of overall usability, and do things like this on a more powerful system built for.
+
 For any issues please raise.
 This is a project that may require some thought to process.
 At some point in the near future it may be converted to run on OpenVino for Intel cpu support, but is likely to stay a linux program, so, wsl, if you need this.
