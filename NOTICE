@@ -1,0 +1,10 @@
+This project contains components under different licenses:
+
+- The Python source code (processor_openvino.py, etc.) is licensed under the
+  GNU Affero General Public License v3.0 (AGPL-3.0). See the LICENSE file.
+
+- The .rknn model files are derivative works created using the RKNN SDK and
+  are redistributed under the terms of the RKNN SDK License. See the
+  LICENSE-RKNN file. The RKNN SDK itself is not included in this repository.
+
+- YOLO model weights are subject to the AGPL-3.0 license. See the LICENSE file.
