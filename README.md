@@ -22,6 +22,14 @@ At some point in the near future it may be converted to run on OpenVino for Inte
 
 it's intended purpose is to allow fast batch processing of images as a second layer on motioneye or other security camera/pvr software, automatically sorting into detected object folders.
 
+## Licensing
+
+This project uses a **split-license** model:
+- **Code** (Python scripts, etc.) → **AGPL-3.0** (see `LICENSE`)
+- **RKNN model files** → **RKNN SDK License** (see `LICENSE-RKNN`)
+
+The RKNN SDK itself is **not** bundled here; users must obtain it from Rockchip separately.
+
 It is not perfect and has no warranty.
 
 If you alter this code for other hardware, please share what you make on github or somewhere where people who want it are likely to find it.
