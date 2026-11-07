@@ -6,6 +6,7 @@ rknn-toolkit-lite2
 opencv-python
 numpy
 tqdm
+setuptools<81
 
 Usage:
 Build a python 3.12 virtual environment. Install rockchip toolkit 2.5.0 and Ultralytics.
