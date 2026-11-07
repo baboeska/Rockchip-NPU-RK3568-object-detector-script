@@ -10,3 +10,5 @@ it's intended purpose is to allow fast batch processing of images as a second la
 It is not perfect and has no warranty.
 
 If you alter this code for other hardware, please share what you make on github or somewhere where people who want it are likely to find it.
+
+Deepseek R1 free tier and Google Search AI helped me make this, very amazing work.
