@@ -1,3 +1,12 @@
+This script runs YOLO11 and YOLOv5 on the Rockchip RK3568 NPU. It requires rknn-toolkit-lite2 version 2.5.0 and librknnrt.so 2.5.0 on the board.
+
+Requirements:
+Python 3.12
+rknn-toolkit-lite2
+opencv-python
+numpy
+tqdm
+
 Usage:
 Build a python 3.12 virtual environment. Install rockchip toolkit 2.5.0 and Ultralytics.
 Then run via "python processor.py -i="input directory" -o="output directory"
