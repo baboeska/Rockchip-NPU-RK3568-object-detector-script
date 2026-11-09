@@ -15,6 +15,7 @@ Then run via "python processor.py -i="input directory" -o="output directory"
 Approximately 6.5fps with Yolov11s on RK3568B NPU, though, due to kernel compatibility issues with gpu drivers, etc, best as a project than a daily driver, but, was a fun niche to explore.
 
 If you own a RK3568 you are probably better off to have Armbian and open kernel, in terms of overall usability, and do things like this on a more powerful system built for.
+Or Debian 12 and an uphill struggle.
 
 For any issues please raise.
 This is a project that may require some thought to process.
