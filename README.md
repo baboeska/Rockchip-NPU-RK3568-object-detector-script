@@ -3,7 +3,7 @@
 Batch image processor for Rockchip RK3568 (0.8 TOPS NPU)
 
 Runs YOLO11 and YOLOv5 on the RK3568 NPU. Requires `rknn-toolkit-lite2` 2.5.0
-and `librknnrt.so` 2.5.0 on the board.
+and `librknnrt.so` 2.5.0 on the board for YOLOv11.
 
 Part of [AI BIPOD](https://github.com/baboeska/bipod)
 
