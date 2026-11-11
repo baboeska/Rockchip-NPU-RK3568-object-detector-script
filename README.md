@@ -22,12 +22,12 @@ over SSH, or, try a Debian 11/12 image for limited GPU support.
 Intended use: a second layer on MotionEye or other security camera/PVR
 software, auto-sorting detections into folders.
 
-## IMPORTANT: separate venv
+You don't necessarily need a second VENV, this works with Python 3.9, but, a VENV is a good idea.
 
 
 ## Requirements
 
-- Python 3.12
+- Python 3.9-3.12
 - `rknn-toolkit-lite2` 2.5.0 (Rockchip vendor tool — not bundled, install from Rockchip)
 - `librknnrt.so` 2.5.0 (runtime, must be on the board, or, 2.3.0, if using yolo_v5)
 - opencv-python, numpy, tqdm
