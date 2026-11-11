@@ -15,7 +15,7 @@ Part of [AI BIPOD](https://github.com/baboeska/bipod)
 ## Honest assessment
 
 Best as a project rather than a daily driver — the Debian 13 image ships without
-GL/GLES/V4L2 acceleration, so the desktop is sluggish. If you own an RK3568,
+GL/GLES/V4L2 acceleration, so the desktop is sluggish. If you own an RK3568 with HDMI,
 Armbian with an open kernel is more usable overall. Run the sorter headless
 over SSH, or, try a Debian 11/12 image for limited GPU support.
 
