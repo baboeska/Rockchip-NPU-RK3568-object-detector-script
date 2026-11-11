@@ -60,6 +60,7 @@ bash
 
 The wheel is architecture-specific (aarch64) and must be installed on the board,
 not copied from another machine.
+Re wheel, ensure the cp***-cp*** matches python3 --version output for the numbers.
 bash
 
     pip install /path/to/rknn_toolkit_lite2-2.5.0-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
