@@ -53,6 +53,11 @@ bash
   
 3. Install rknn-toolkit-lite2
 
+   git clone https://github.com/rockchip-linux/rknn-toolkit2
+
+   Then look in /rknn-toolkit2/tree/master/rknn_toolkit_lite2/packages for Python wheels.
+   
+
 The wheel is architecture-specific (aarch64) and must be installed on the board,
 not copied from another machine.
 bash
