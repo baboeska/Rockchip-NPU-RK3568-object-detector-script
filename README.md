@@ -29,7 +29,7 @@ software, auto-sorting detections into folders.
 
 - Python 3.12
 - `rknn-toolkit-lite2` 2.5.0 (Rockchip vendor tool — not bundled, install from Rockchip)
-- `librknnrt.so` 2.5.0 (runtime, must be on the board)
+- `librknnrt.so` 2.5.0 (runtime, must be on the board, or, 2.3.0, if using yolo_v5)
 - opencv-python, numpy, tqdm
 - setuptools<81 (newer versions break the toolkit's build)
 - RKNPU visible in Kernel, Rockchip proprietary kernel
