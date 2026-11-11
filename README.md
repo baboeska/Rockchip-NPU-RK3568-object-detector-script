@@ -40,7 +40,7 @@ software, auto-sorting detections into folders.
 
 bash
 
-    sudo apt update && sudo apt install -y build-essential cmake libopencv-dev
+    sudo apt update && sudo apt install -y build-essential cmake libopencv-dev git
     sudo usermod -aG video,render,disk $USER   # then log out and back in
 
 2. Python environment
