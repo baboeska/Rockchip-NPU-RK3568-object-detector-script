@@ -35,6 +35,60 @@ You don't necessarily need a second VENV, this works with Python 3.9, but, a VEN
 
 ## Setup
 
+
+### 0. Prerequisites
+
+
+1. The librknnrt.so Runtime Library (Manual Install)
+You must download the librknnrt.so file from the airockchip/rknn-toolkit2 GitHub repository (look inside rknpu2/runtime/RK356X/Linux/librknn_api/aarch64/) and copy it to your board:
+
+bash
+sudo cp librknnrt.so /usr/lib/
+
+sudo ldconfig
+
+(Many pre-built Rockchip Debian images include this by default, but if you are using a custom or minimal image, you must do this manually.) 
+
+
+2. The NPU Kernel Driver
+
+The librknnrt.so is just the userspace runtime. The board's Linux kernel must also have the Rockchip NPU driver enabled and loaded. You can usually check this with:
+
+bash
+
+dmesg | grep rknpu
+
+If you see NPU initialization messages, the driver is working.
+
+
+
+3. Version Matching (Crucial)
+
+
+Your Python wheel (rknn_toolkit_lite2) and the C runtime (librknnrt.so) must be the same major version. Since you are using the 2.5.0 wheel, you need the 2.5.0 librknnrt.so . A mismatch here is a very common cause of mysterious initialization failures.
+
+
+🛠️ How to Verify It's Working
+
+
+Before running the full BIPOD script, run this quick test on your board to confirm the runtime is correctly installed and visible:
+
+
+bash
+
+# Check if the system can find the runtime library
+
+ldconfig -p | grep rknnrt
+
+
+# Check the version of the library you installed
+
+strings /usr/lib/librknnrt.so | grep librknnrt
+
+
+The second command should output something like librknnrt version: 2.5.0 (...).
+
+
 ### 1. System packages
 
 bash
