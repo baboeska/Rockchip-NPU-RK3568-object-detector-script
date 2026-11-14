@@ -1,11 +1,11 @@
-#BIPOD-RKNN
-#Batch image processor for Rockchip RK3568 (0.8 TOPS NPU)
+# BIPOD-RKNN
+# Batch image processor for Rockchip RK3568 (0.8 TOPS NPU)
 
 Runs YOLO11 and YOLOv5 on the RK3568 NPU. Requires rknn-toolkit-lite2 2.5.0 and librknnrt.so 2.5.0 on the board for YOLOv11.
 
 Part of AI BIPOD (https://github.com/baboeska/bipod)
 
-#PERFORMANCE
+# PERFORMANCE
 
 RK3568 NPU (0.8 TOPS) with YOLO11s INT8:
 
@@ -13,7 +13,7 @@ Resize mode: ~6.5 img/s
 
 Tile mode: ~1.5 img/s
 
-#HONEST ASSESSMENT
+# HONEST ASSESSMENT
 
 Best as a project rather than a daily driver. The Debian 13 image ships without GL/GLES/V4L2 acceleration, so the desktop is sluggish. If you own an RK3568 with HDMI, Armbian with an open kernel with no NPU support is more usable overall. Run the sorter headless over SSH, or try a Debian 11/12 image for limited GPU support.
 
@@ -21,7 +21,7 @@ Intended use: a second layer on MotionEye or other security camera/PVR software,
 
 You don't necessarily need a second VENV; this works with Python 3.9, but a VENV is a good idea.
 
-#REQUIREMENTS
+# REQUIREMENTS
 
 Python 3.9 to 3.12
 
@@ -35,9 +35,9 @@ setuptools < 81 (newer versions break the toolkit's build)
 
 RKNPU visible in kernel (Rockchip proprietary kernel)
 
-##SETUP
+## SETUP
 
-#Prerequisites
+# Prerequisites
 
 The librknnrt.so Runtime Library (Manual Install)
 
@@ -106,7 +106,7 @@ Available modes:
 
 --mode resize: downscale to 640px max, single pass
 
-#LICENSING
+# LICENSING
 
 This project uses a split-license model:
 
