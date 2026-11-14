@@ -135,4 +135,4 @@ It is not perfect and has no warranty, nor is this version intended to be bullet
 
 If you alter this code for other hardware, please share what you make on github or somewhere where people who want it are likely to find it.
 
-Deepseek R1 free tier and Google Search AI helped me make this, very amazing work.
+Deepseek R1 free tier and Google Search AI and Gemma4 and ChatGPT helped me make this, very amazing work.
