@@ -8,9 +8,9 @@ and `librknnrt.so` 2.5.0 on the board for YOLOv11.
 Part of [AI BIPOD](https://github.com/baboeska/bipod)
 
 ## Performance
-| Platform | Model | Throughput |
-|---|---|---|
-| RK3568 NPU (0.8 TOPS) | YOLO11s INT8 | ~6.5 img/s |
+| Platform | Model | Resize | Tile |
+|---|---|---|---|---|
+| RK3568 NPU (0.8 TOPS) | YOLO11s INT8 | ~6.5 img/s | ~1.5 img/s |
 
 ## Honest assessment
 
